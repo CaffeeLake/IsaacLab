@@ -35,7 +35,7 @@ dependencies = [
     "isaaclab-visualizers",
     # ----- generic -----
     "numpy>=2",
-    "torch==2.11.0",
+    "torch==2.13.0",
     "torchvision==0.26.0",
     "onnx>=1.18.0",
     "prettytable>=3.3.0",
@@ -427,7 +427,7 @@ override-dependencies = [
     # Standalone importer 6.2.0.1 requires these converters; Isaac Sim 6.2 pins older releases.
     "urdf-usd-converter==0.3.4",
     "mujoco-usd-converter==0.7.0",
-    "torch==2.11.0",
+    "torch==2.13.0",
     "torchvision==0.26.0",
     # isaacsim-core 6.2 pins fsspec 2026.2.0, while torch 2.11 requires 2026.6.0.
     "fsspec>=2026.6.0",
